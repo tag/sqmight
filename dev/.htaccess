@@ -1,0 +1,27 @@
+php_flag register_globals off
+php_flag magic_quotes_gpc off
+php_flag magic_quotes_runtime off
+
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag log_errors on
+
+php_value error_reporting 32767
+
+php_flag session.use_cookies on
+php_flag session.use_only_cookies on
+
+php_value error_log "../app/log/error.log"
+
+php_value session.name "SQM_SID"
+php_value session.save_path "../session"
+# 10800 == 3 hrs
+php_value session.gc_maxlifetime 10800
+php_value session.cookie_lifetime 10800
+
+php_value open_basedir "../"
+
+Options MultiViews
+
+BrowserMatch MSIE ie
+Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie

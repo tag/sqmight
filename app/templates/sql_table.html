@@ -1,0 +1,19 @@
+<table class="sql-output">
+<thead>
+	<tr><?php
+	foreach($T['columns'] as $val) {
+		echo '<th>'.H($val).'</th>';
+	}
+?></tr>
+</thead>
+<tbody><?php
+	foreach($T['data'] as $row) {
+		echo "\t<tr>";
+		foreach($T['columns'] as $key) {
+			echo '<td>'.H($row[$key]).'</td>';
+		}
+		echo "</tr>\n";
+	}
+?>
+</tbody>
+</table>

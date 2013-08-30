@@ -1,0 +1,2 @@
+#TODO: deny from all
+php_value open_basedir "/"

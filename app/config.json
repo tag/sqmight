@@ -1,0 +1,10 @@
+{
+  "config": "development",
+  "debug": true,
+
+  "user_data_path": "./session/",
+  "php": {
+      "date.timezone":"America/New_York",
+      "display_errors": "On"
+    }
+}

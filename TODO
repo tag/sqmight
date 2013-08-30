@@ -1,0 +1,50 @@
++ get it working on Bluehost
+  + Remove error reporting code from common.php (on Bluehost)
++ db create more dummy data!
+  + sha1 db password
+  + lower case db email
+
++ Build automation: Markdown, About page
++ About page
++ Schema printing
++ Remove index's js from md template file
++ Create index.html off of md template
++ Update Redcloth (instead of PHP-markdown) in about
++ update md template to include main, text align left, fix links to amazon, etc.
++ Make header a link home (if not index!)
+
++ remove associated db on session destroy (the whole point of a custom session handler!)
+
++ Install optipng to enable png optimization in build process. For instructions see 'Dependencies' at: http://html5boilerplate.com/docs/#Build-script#dependencies
+
++ db reset
+
++ Add behavior to delete history queries from DOM
++ Build automation (rake): minify & concat prettify/lang-sql; include developer-readable js in project
++ Trim preffity (e.g., so unused onload event doesn't fire)
++ SQL parsing/verification
++ sql dump export
++ Include query run time in output
++ Include character count below query box
+
++ Add LIMIT to keywords in pretify sql-lang (temporarily added; test/submit ticket/pull request)
++ Handle printing of multiline queries; e.g. "SELECT * FROM users -- foo \n LIMIT 5;"
++ When packaging: create dummy config.js.example
+
++ Add html, css, .htaccess comments TODOs to rakefile :todo
++ favicon
+
+AUTO-GENERATED
+--------------
++ slide down new inertion (./dev/js/script.js:27)
++ pop if a size limit is reached? Mask? (./dev/js/script.js:30)
++ Should check to see if db is valid, first (./dev/js/script.js:61)
++ implement dump.php (./dev/dump.php:2)
++ Validate query — Input checking (./dev/query.php:20)
++ better error handling (./dev/query.php:40)
++ if not XHR, show full page. (./app/common.php:135)
++ fix HTTP status code (./app/common.php:170)
++ Verify key, remove associated user db (./app/session.php:112)
++ Verify key, remove associated user db (./app/session.php:126)
++ Add error logging (./app/user_data.php:17)
++ exportUserDb not yet completed (./app/user_data.php:72)

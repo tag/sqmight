@@ -1,0 +1,11 @@
+
+The following folders must be writeable by the server:
++ /app/log
++ /app/session
+
+The following files must be writable by the server:
++ /app/data/sessions.sqlite3
+
+All other files/folders should NOT be writeable by the server
+
+Some hosts don' allow PHP directives in .htaccess. If this is the case, use the php.ini; if not, delete php.ini.
