@@ -1,10 +1,11 @@
-About:
+About **sqMight**
+=================
 
 *sqMight* uses [sqLite](http://www.sqlite.org/) as a backend, and offers each user a unique, temporary database instance. So, yes, go ahead and write those INSERT and UPDATE queries. CREATE or DROP tables. No one will know but you. Your personal database instance will stick around for a couple of hours, then it's kaput.
 
-*sqMight* is intended for use in learning SQL, and is  available for personal, non-commercial use under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+*sqMight* is intended for use in learning SQL, and is available under an MIT-style license.
 
-Items listed in the 'products' table are real items found online. Many are listed at (hackerthings.com)[http://hackerthings.com], (thinkgeek.com)[http://thinkgeek.com], or (amazon.com)[http://amazon.com]. None of these shopping sites have any affiliation to this site.
+Items listed in the 'products' table are real items found online. Many are listed at [hackerthings.com](http://hackerthings.com), [thinkgeek.com](http://thinkgeek.com), or [amazon.com](http://amazon.com). None of these shopping sites have any affiliation with this site.
 
 If you wish to incorporate *sqMight* into your classroom curriculum or research, or otherwise use it commercially, please contact Tom Gregory at tom@alt-tag.com.
 
@@ -28,4 +29,3 @@ If you wish to incorporate *sqMight* into your classroom curriculum or research,
   + [Normalize.css](https://github.com/necolas/normalize.css/blob/master/README.md), Public Domain
 + Background textures adapted from [subtlepatterns.com](http://subtlepatterns.com)
 + Throbbers from [ajaxloader.info](http://ajaxloader.info).
-
